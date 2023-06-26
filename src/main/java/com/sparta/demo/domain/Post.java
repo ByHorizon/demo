@@ -13,8 +13,6 @@ import java.time.LocalDateTime;
 public class Post {
     @Id @GeneratedValue
     private Long id;
-
-
     private String title;
     private String username;
     private String password;
